@@ -21,6 +21,9 @@ import CounterTwo from "./components/CounterTwo";
 import CounterThree from "./components/CounterThree";
 import DataFetching1 from "./components/DataFetching1";
 import DataFetching2 from "./components/DataFetching2";
+import ParentComponent from "./components/ParentComponent";
+import Count from "./components/Count";
+import Counter from "./components/Counter";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -74,7 +77,9 @@ function App() {
         <ComponentB />
         <ComponentC /> */}
         {/* <DataFetching1 /> */}
-        <DataFetching2 />
+        {/* <DataFetching2 /> */}
+        {/* <ParentComponent /> */}
+        <Counter />
       </div>
     </CountContext.Provider>
   );
