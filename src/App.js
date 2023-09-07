@@ -24,6 +24,7 @@ import DataFetching2 from "./components/DataFetching2";
 import ParentComponent from "./components/ParentComponent";
 import Count from "./components/Count";
 import Counter from "./components/Counter";
+import FocusInput from "./components/FocusInput";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -79,7 +80,8 @@ function App() {
         {/* <DataFetching1 /> */}
         {/* <DataFetching2 /> */}
         {/* <ParentComponent /> */}
-        <Counter />
+        {/* <Counter /> */}
+        <FocusInput />
       </div>
     </CountContext.Provider>
   );
