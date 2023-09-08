@@ -29,6 +29,8 @@ import ClassTimer from "./components/ClassTimer";
 import HookTimer from "./components/HookTimer";
 import DocTitleOne from "./components/DocTitleOne";
 import DocTitleTwo from "./components/DocTitleTwo";
+import Counter1 from "./components/Counter1";
+import Counter2 from "./components/Counter2";
 
 export const UserContext = React.createContext();
 export const ChannelContext = React.createContext();
@@ -86,10 +88,12 @@ function App() {
         {/* <ParentComponent /> */}
         {/* <Counter /> */}
         {/* <FocusInput /> */}
-        <ClassTimer />
+        {/* <ClassTimer />
         <HookTimer />
         <DocTitleOne />
-        <DocTitleTwo />
+        <DocTitleTwo /> */}
+        <Counter1 />
+        <Counter2 />
       </div>
     </CountContext.Provider>
   );
